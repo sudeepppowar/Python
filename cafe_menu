@@ -1,0 +1,71 @@
+# QR Cafe Ordering System ☕📱
+
+A QR-based cafe menu and ordering system built using Python and Flask. 
+Customers can scan a QR code to view the cafe menu and place their order directly from their mobile device.
+
+## Features
+
+- QR code menu access
+- Mobile-friendly ordering
+- Multiple menu items
+- Automatic bill calculation
+- Orders displayed in server terminal
+
+## Technologies Used
+
+- Python
+- Flask
+- QRCode
+- Pillow
+
+## Installation
+
+Clone the repository
+
+git clone https://github.com/yourusername/qr-cafe-ordering-system.git
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the server
+
+python app.py
+
+Generate QR code
+
+python qr_generator.py
+
+## How It Works
+
+1. Start the Flask server.
+2. Generate a QR code using the generator script.
+3. Customers scan the QR code.
+4. Menu opens on their phone.
+5. They select items and place an order.
+6. Orders appear in the server console.
+
+## Example Menu
+
+Coffee – ₹120  
+Cappuccino – ₹150  
+Latte – ₹160  
+Tea – ₹80  
+Sandwich – ₹200  
+Cake – ₹180  
+
+## Project Structure
+
+qr-cafe-ordering-system/
+
+app.py  
+qr_generator.py  
+requirements.txt  
+README.md  
+
+## Future Improvements
+
+- Food images
+- Quantity selection
+- Order dashboard for staff
+- Online deployment
